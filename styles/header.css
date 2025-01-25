@@ -1,0 +1,135 @@
+.header{
+    height: 60px;
+    color: white;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color:#c5bfbf;
+    border-bottom-style:solid ;
+    z-index: 1;
+}
+
+.left{
+    width: 250px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+
+}
+.middle{
+    flex: 1;
+    margin-right: 60px;
+    display: flex;
+    flex-direction: row;
+   
+    align-items: center;
+    max-width: 650px;
+    
+}
+.right{
+    width: 200px;
+}
+
+.menu{
+    height: 25px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+.ylogo{
+    height: 20px;
+}
+
+.search{
+    height: 33px;
+   width: 30px;
+    flex: 1;
+    border: 2px solid #b3abab;
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+}
+.search::placeholder{
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    padding-left: 14px;
+    font-weight: 20px;
+}
+.src{
+    height: 39px;
+    margin-left: -1px;
+    margin-top: -4px;
+    margin-right: 10px;
+    border-color: rgb(255, 255, 255);
+    
+}
+.search-icon{
+    height: 30px;
+    width:25px;
+    margin-top: 2px;
+}
+
+.mic{
+    height: 39px;
+    border-radius: 50px;
+    border: 0 white;
+    margin-left: 3px;
+    margin-top: -2px;
+}
+
+.mic-icon{
+    height: 30px;
+    width:25px;
+    margin-top: 2px;
+}
+.right{
+    background-color:white;
+    width: 200px;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+    flex-shrink: 0;
+
+}
+.upload{
+    height: 55px;
+    width: 30px;
+}
+.apps{
+    height: 25px;
+    width: 30px;
+}
+
+
+
+.noti{
+    height: 35px;
+    width: 30px;
+}
+.notification-number{
+    position: relative;
+
+}
+.noti-number{
+    background-color: red;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    height: 15px;
+    width: 15px;
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.profile-pic{
+    height: 35px;
+    width: 35px;
+    border-radius: 50px;
+    margin-right: -35px;
+}
