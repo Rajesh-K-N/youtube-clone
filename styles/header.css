@@ -72,7 +72,8 @@ X
 .upload-video,
 .apps-menu,
 .notification-number,
-.src,.mic{
+.src,.mic,
+.profile{
     position: relative;
     display: flex;
     justify-content: center;
@@ -97,14 +98,43 @@ X
     pointer-events: none;
 
 }
+.profile .pro-tooltip{
+    position: absolute;
+    top: 45px;
+    left: -130px;
+    height: 70px;
+    width: 160px;
+    background-color: rgba(128, 128, 128, 0.744);
+    color: white;
+    font-family: Roboto ,Arial, Helvetica, sans-serif;
+    font-size: 10px ;
+    padding: 3px 3px 3px 3px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+
+}
+.pro-paragraph{
+        padding-top: 0px; 
+        padding-bottom: 0px;
+        margin-top: 0px; 
+        margin-bottom: 0px;
+        font-family: Roboto, sans-serif;
+        color: black;
+}
 .src:hover .search-tooltip,
 .mic:hover .mic-tooltip,
 .upload-video:hover .upload-tooltip,
 .apps-menu:hover .app-tooltip,
-.notification-number:hover .noti-tooltip{
+.notification-number:hover .noti-tooltip,
+.profile:hover .pro-tooltip{
     opacity: 1;
 }
 
+.tooltip-profile{
+    display: flex;
+    align-content:center; ;
+}
 .search-icon{
     height: 30px;
     width:25px;
