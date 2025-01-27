@@ -12,8 +12,8 @@
     <link href="styles/sidebar.css" rel="stylesheet">
     <link href="styles/video.css" rel="stylesheet">
 </head>
-<body class="body"> 
-    <div class="header">
+<body class="main-body"> 
+    <div class="youtube-header">
         <div class="left">
             <img class="menu" src="icons/hamburger-menu.svg">
             <img class="ylogo" src="icons/youtube-logo.svg">
@@ -22,19 +22,31 @@
             <input class="search" type="text" placeholder="search">
             <button class="src">
                 <img class="search-icon" src="icons/search.svg">
+                <div class="search-tooltip">Search</div>
             </button>
             <button class="mic">
                 <img class="mic-icon" src="icons/voice-search-icon.svg">
+                <div class="mic-tooltip">Mic</div>
             </button>
         </div>
         <div class="right">
-            <img class="upload" src="icons/upload.svg">
-            <img class="apps" src="icons/youtube-apps.svg">
+            <div class="upload-video">
+                <img class="upload" src="icons/upload.svg">
+                <div class="upload-tooltip">Upload</div>
+            </div>
+            <div class="apps-menu">
+                <img class="apps" src="icons/youtube-apps.svg">
+                <div class="app-tooltip">Apps</div>
+            </div>   
             <div class="notification-number">
                 <img class="noti" src="icons/notifications.svg">
                 <div class="noti-number">2</div>
-            </div>            
-            <img class="profile-pic" src="thumbnail/my-channel.jpeg">
+                <div class="noti-tooltip">notification</div>
+            </div>        
+            <div>
+                <img class="profile-pic" src="thumbnail/my-channel.jpeg">
+            </div>    
+            
         </div>
     </div>
     <div class="sidebar">

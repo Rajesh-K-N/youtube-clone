@@ -1,4 +1,4 @@
-.header{
+.youtube-header{
     height: 60px;
     color: white;
     background-color: white;
@@ -50,8 +50,10 @@
    width: 30px;
     flex: 1;
     border: 2px solid #b3abab;
-    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05); 
+
 }
+X
 .search::placeholder{
     font-family: Roboto, Arial, Helvetica, sans-serif;
     padding-left: 14px;
@@ -59,12 +61,50 @@
 }
 .src{
     height: 39px;
-    margin-left: -1px;
-    margin-top: -4px;
+    margin-left:-1px;
+    margin-top: -2px;
     margin-right: 10px;
     border-color: rgb(255, 255, 255);
+    position: relative;
+    transition: opacity 2s;
     
 }
+.upload-video,
+.apps-menu,
+.notification-number,
+.src,.mic{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.src .search-tooltip,
+.mic .mic-tooltip,
+.upload-video .upload-tooltip,
+.apps-menu .app-tooltip,
+.notification-number .noti-tooltip{
+    position: absolute;
+    top: 45px;
+    left: -1px;
+    background-color: rgba(128, 128, 128, 0.744);
+    color: white;
+    font-family: Roboto ,Arial, Helvetica, sans-serif;
+    font-size: 10px ;
+    padding: 3px 3px 3px 3px;
+    border-radius: 2px;
+    opacity: 0;
+    pointer-events: none;
+
+}
+.src:hover .search-tooltip,
+.mic:hover .mic-tooltip,
+.upload-video:hover .upload-tooltip,
+.apps-menu:hover .app-tooltip,
+.notification-number:hover .noti-tooltip{
+    opacity: 1;
+}
+
 .search-icon{
     height: 30px;
     width:25px;
@@ -77,7 +117,9 @@
     border: 0 white;
     margin-left: 3px;
     margin-top: -2px;
+    position: relative;
 }
+
 
 .mic-icon{
     height: 30px;

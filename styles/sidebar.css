@@ -9,7 +9,7 @@
     top: 60px;
     left: 0px;
     bottom:0px;
-    width: 70px;
+    width: 90px;
     border-right-width: 1px;
     border-right-color:rgba(0, 0, 0, 0.05);
     border-right-style:solid ;
@@ -17,7 +17,7 @@
 }
 
 .sidebar img{
-    height: 25px;
+    height: 35px;
     width: 30px;
 }
 
@@ -34,9 +34,9 @@
 }
 .sideinfo{
     font-family: Roboto, sans-serif;
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 4px;
- font-weight: 500;
+    font-weight: 500;
 }
 .sidelink:hover{
     background-color: rgb(240, 240, 240);
